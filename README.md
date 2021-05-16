@@ -1,3 +1,3 @@
 # Overview
 
-A simple server for distributing asset bundles
+It's a sandbox to learn deno.
