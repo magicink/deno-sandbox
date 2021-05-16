@@ -1,0 +1,31 @@
+{
+  "name": "unity-asset-bundle-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "deno run --allow-net src/index.js",
+    "format": "prettier --write \"**/*.{js,json,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicink/unity-asset-bundle-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magicink/unity-asset-bundle-server/issues"
+  },
+  "homepage": "https://github.com/magicink/unity-asset-bundle-server#readme",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  },
+  "optionalDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "prettier-config": "github:magicink/prettier-config"
+  },
+  "prettier": "prettier-config"
+}
